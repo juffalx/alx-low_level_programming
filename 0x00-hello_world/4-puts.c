@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'the program's description'
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 
 main(void)

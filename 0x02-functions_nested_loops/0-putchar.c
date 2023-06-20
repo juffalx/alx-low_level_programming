@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - putchar display
@@ -19,5 +18,4 @@ int main (void)
 	putchar('a');
 	putchar('r');
 	putchar('\n');
-return (0);
 }

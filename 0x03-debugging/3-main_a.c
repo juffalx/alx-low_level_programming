@@ -17,7 +17,7 @@ int main(void)
 	day = 1;
 	year = 1997;
 
-	printf("Date: %d/%d/%d\n", month, day, year);
+	printf("Date: %d/%d/%d\n", day, month, year);
 
 	day = convert_day(month, day);
 

@@ -1,3 +1,14 @@
+#include "main.h"
+
+/**
+ * _strncat - concatinate two string by n byte
+ * @dest: first parameter
+ * @src: second parameter
+ * @n: number of byte
+ *
+ * Return: dest
+ */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
@@ -10,7 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 
-	for (j = 0; j < n; j++)
+	for (j = 0; j < n && src[j] != '0'; j++)
 	{
 		dest[i] = src[j];
 		i++;

@@ -2,17 +2,16 @@
 #include "main.h"
 
 /**
- * main - isupper proto type
- *
+ * _isupper - isupper convert lowercase to uppercase
+ *@c: int parameter
  * Return: 0 Always(success)
- *
  */
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c<= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
-	return(0);
+	return (0);
 }

@@ -3,7 +3,6 @@
 /**
  * _strspn - function
  * @s: first parameter
- * @a: second parameter
  * @accept: last parameter
  *
  * Return: n

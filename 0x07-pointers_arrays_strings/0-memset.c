@@ -1,24 +1,22 @@
 #include "main.h"
 
 /**
- * _memset - to fill memory address value by specific input
- * @s: first parameter uses for filled memory address lemaweq new
- * @b: hulunm ye s index migeaw value
- * @n: this is last parameter uses for byte to chage , control the loop
+ * _memset - n time of  change *s array
+ * @s: insert array for change value example buffer
+ * @b: constant mnfelgewn value mnasgebabet
+ * @n: mn yahlun chnage lemadrge mnwesnbet
  *
- * Return: char or s
+ * Return: s of n times change value
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i = 0;
-	unsigned int j = 0;
 
-	for (; j < n; i++)
+	for (; n > 0; n--)
 	{
 		s[i] = b;
-		j++;
+		i++;
 	}
 	return (s);
 }
-

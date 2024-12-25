@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_number - dispaly digit
+ * print_numbers- dispaly digit
  * @void: void parameter
- * Retrun: no return
+ * Retrun: return digit one to nine
  */
-
 void print_numbers(void)
 {
 	int i;

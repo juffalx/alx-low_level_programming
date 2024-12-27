@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * more_numbers - function name prints ten number
- * void: function parameter
- * Return: retun 10 number's
+ * more_numbers - function name
+ * void: parameter
+ * Returns: to time it's number
  */
 
 void more_numbers(void)
@@ -18,13 +18,9 @@ void more_numbers(void)
 			if (z > 9)
 			{
 				_putchar(z / 10 + '0');
-				_putchar(z % 10 + '0');
-			} else
-			{
-				_putchar('0' + z);
 			}
+			_putchar(z % 10 + '0');
 		}
 		_putchar('\n');
 	}
 }
-

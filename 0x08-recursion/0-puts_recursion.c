@@ -2,8 +2,8 @@
 
 /**
  * _puts_recursion - function return input string
- * 's': is parameter
- * Return: it's value
+ * @s: is parameter
+ * Returns: it's value
  */
 
 

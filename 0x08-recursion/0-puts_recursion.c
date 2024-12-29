@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - function return input string
- * *s: is parameter
+ * s: is parameter
  * Return: it's value
  */
 
@@ -13,6 +13,7 @@ void _puts_recursion(char *s)
 	if (*s == '\0')
 	{
 		return;
+		_putchar('\n');
 	}
 
 

@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - function return input string
- * s: is parameter
+ * 's': is parameter
  * Return: it's value
  */
 
